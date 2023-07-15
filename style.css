@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+span{
+    color: rgb(28, 104, 197);
+    font-size: 20px;
+    
+}
+.topo{
+    background-color: white;
+    padding: 10px 55px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    position: fixed;
+    width: 100%;
+}
+.topo a{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+}
+.pousada{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    width: 385px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1px;
+}
+
+nav a{
+    border-bottom: 1px solid #233032;
+}
+
+.paragrafo-banner{
+    background-color: rgba(1, 255, 208, 0.5);
+    width: 400px;
+    height: 200px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.paragrafo-banner h1{
+    font-size: 32px;
+}
+.paragrafo-banner p{
+    font-size: 16px;
+}
+
+.banner{
+    height: 700px;
+    background-attachment: fixed;
+    background-image: url(assets/img-fundo.jpg);
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.quarto{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+img{
+    width: 300px;
+}
+img:hover{
+    width: 350px;
+    border: 3px solid rgb(79, 206, 79);
+    box-sizing: border-box;
+}
+.paragrafo{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.paragrafo h2, .paragrafo h3{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 26px;
+}
+.paragrafo p{
+    line-height: 22px;
+}
+.link{
+    display: flex;
+    justify-content: center;
+}
+.link a{
+    border: 1px solid rgb(44, 184, 158);
+    background-color: rgb(44, 184, 158);
+    border-radius: 6px solid;
+    padding: 2px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+#rota p{
+    margin-bottom: 10px;
+}
+#sobre p{
+    margin-bottom: 10px;
+}
+.linha{
+    border-top: 2px solid #395257;
+    width: 100%;
+}
+.inf{
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+}
+.informacoes{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #233032;
+    max-width: 500px;
+}
+.paragrafo-inf{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+iframe{
+    width: 100%;
+}
